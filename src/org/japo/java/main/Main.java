@@ -22,10 +22,12 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
+        //Declaramos constante
         final char LETRA_DNI = 'E';
         
+        //Salida con println
         System.out.println("Letra DNI: 49321564-" + LETRA_DNI);
-        
-
+        //Salida con printf
+        System.out.printf("Letra DNI: 49321564-%c%n", LETRA_DNI);
     }
 }
